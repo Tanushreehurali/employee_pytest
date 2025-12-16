@@ -2,7 +2,7 @@ from employee import employee_details
 
 
 def test_employee_details_output():
-    result = employee_details("Riya", "E190", "Accounts", 100000)
+    result = employee_details("tanu", "E190", "Accounts", 100000)
 
     expected = (
         "Employee Name: tanu\n"
